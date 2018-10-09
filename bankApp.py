@@ -18,10 +18,10 @@ def gatekeeper(login):
     return "Illegal login type!"
 
 # 3. Call the gatekeeper function with a string and print what it returns.
-print("For admin gatekeeper returns: " + gatekeeper("admin")+"\n")
-print("For user gatekeeper returns: " + gatekeeper("user")+"\n")
-print("For guest gatekeeper returns: " + gatekeeper("guest")+"\n")
-print("For blashblahblah gatekeeper returns: " + gatekeeper("blahblahblah")+"\n")
+print("For \"admin\" gatekeeper returns: \n" + gatekeeper("admin")+"\n")
+print("For \"user\" gatekeeper returns: \n" + gatekeeper("user")+"\n")
+print("For \"guest\" gatekeeper returns: \n" + gatekeeper("guest")+"\n")
+print("For \"blashblahblah\" gatekeeper returns: \n" + gatekeeper("blahblahblah")+"\n")
 
 # 4. How could this code be improved? Make it better. Think about what other scenarios you should cover in your if logic.
 # Error checking for illegal login type
@@ -38,6 +38,7 @@ def check_balance(loan_balance):
 
 
 # 8. Call your function with a negative and positive number and print what it returns.
-print(check_balance(300))
-print(check_balance(-300))
+print("check_balance(300) returns: \n" + check_balance(300)+"\n")
+print("check_balance(-300) returns: \n" + check_balance(-300)+"\n")
+print("check_balance(-300.55) returns: \n" + check_balance(-300.55)+"\n")
 
